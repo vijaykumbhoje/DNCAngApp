@@ -12631,11 +12631,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\vijay.kumbhoje\\source\\repos\\DNCAngApp\\DNCAngApp.API\\DNCAngApp.API.csproj",
+      "projectUniqueName": "C:\\Users\\vijay.kumbhoje\\source\\repos\\DNCAngApp\\DNCAngApp.API\\DNCAngApp.API.csproj",
       "projectName": "DNCAngApp.API",
-      "projectPath": "c:\\Users\\vijay.kumbhoje\\source\\repos\\DNCAngApp\\DNCAngApp.API\\DNCAngApp.API.csproj",
+      "projectPath": "C:\\Users\\vijay.kumbhoje\\source\\repos\\DNCAngApp\\DNCAngApp.API\\DNCAngApp.API.csproj",
       "packagesPath": "C:\\Users\\vijay.kumbhoje\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\vijay.kumbhoje\\source\\repos\\DNCAngApp\\DNCAngApp.API\\obj\\",
+      "outputPath": "C:\\Users\\vijay.kumbhoje\\source\\repos\\DNCAngApp\\DNCAngApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

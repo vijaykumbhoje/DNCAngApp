@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "b0271b27d96958e11deceeabae298c6742865dd9"
+    "signature": "5fe572b3ecf8dfd5fb02980a648dd80f3426d39c"
   },
   "compilationOptions": {
     "defines": [
@@ -25,6 +25,7 @@
       "DNCAngApp.API/1.0.0": {
         "dependencies": {
           "EntityFramework": "6.2.0",
+          "GitHub": "1.14.2",
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6",
@@ -36,6 +37,84 @@
         },
         "compile": {
           "DNCAngApp.API.dll": {}
+        }
+      },
+      "Carbon.Data.Protection/0.21.1": {
+        "runtime": {
+          "lib/netcoreapp2.1/Carbon.Data.Protection.dll": {
+            "assemblyVersion": "0.21.1.0",
+            "fileVersion": "0.21.1.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.1/Carbon.Data.Protection.dll": {}
+        }
+      },
+      "Carbon.Json/1.9.0": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Carbon.Json.dll": {
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Carbon.Json.dll": {}
+        }
+      },
+      "Carbon.Packaging/1.33.0": {
+        "dependencies": {
+          "Carbon.Data.Protection": "0.21.1",
+          "Carbon.Json": "1.9.0",
+          "Carbon.Storage": "1.19.0",
+          "Carbon.Versioning": "1.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Carbon.Packaging.dll": {
+            "assemblyVersion": "1.33.0.0",
+            "fileVersion": "1.33.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Carbon.Packaging.dll": {}
+        }
+      },
+      "Carbon.Storage/1.19.0": {
+        "runtime": {
+          "lib/netcoreapp2.1/Carbon.Storage.dll": {
+            "assemblyVersion": "1.19.0.0",
+            "fileVersion": "1.19.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.1/Carbon.Storage.dll": {}
+        }
+      },
+      "Carbon.VersionControl/1.9.2": {
+        "dependencies": {
+          "Carbon.Storage": "1.19.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Carbon.VersionControl.dll": {
+            "assemblyVersion": "1.9.2.0",
+            "fileVersion": "1.9.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Carbon.VersionControl.dll": {}
+        }
+      },
+      "Carbon.Versioning/1.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/Carbon.Versioning.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Carbon.Versioning.dll": {}
         }
       },
       "EntityFramework/6.2.0": {
@@ -52,6 +131,21 @@
         "compile": {
           "lib/net45/EntityFramework.SqlServer.dll": {},
           "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "GitHub/1.14.2": {
+        "dependencies": {
+          "Carbon.Packaging": "1.33.0",
+          "Carbon.VersionControl": "1.9.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/GitHub.dll": {
+            "assemblyVersion": "1.14.2.0",
+            "fileVersion": "1.14.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/GitHub.dll": {}
         }
       },
       "Microsoft.Data.Sqlite.Core/2.2.6": {
@@ -3430,12 +3524,61 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Carbon.Data.Protection/0.21.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9BTb/zVO7tY2A6Bs8MftGqw5j65KoWxQrQaqMTGM2LR+45aEZVSETaUIld7xce7kKdWj1LcTJFitxhM1Oes57g==",
+      "path": "carbon.data.protection/0.21.1",
+      "hashPath": "carbon.data.protection.0.21.1.nupkg.sha512"
+    },
+    "Carbon.Json/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DUkE1HfPwDpXI+7KsemHHK+EhtS08llue3SQDkVZkzCmX8SJiMv1vpHi5p7HbjkDZfb28J+aPsNOlBRE016RYA==",
+      "path": "carbon.json/1.9.0",
+      "hashPath": "carbon.json.1.9.0.nupkg.sha512"
+    },
+    "Carbon.Packaging/1.33.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fbIAV2ux8pc2Gf4dTvbSMolA/cgFYslecyrdrBdEqj2JOoNBZhINhWbLt80+N1ltYTSz5R43YcF29Mit81bHnQ==",
+      "path": "carbon.packaging/1.33.0",
+      "hashPath": "carbon.packaging.1.33.0.nupkg.sha512"
+    },
+    "Carbon.Storage/1.19.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZKYfQcHuL6ZaQOyexDZqHCMYxycLo0ZcEnAS9xq0t7LXGDd+MAOtogGxkba57OREcXO9PdoHRZ+597sDOx7UHQ==",
+      "path": "carbon.storage/1.19.0",
+      "hashPath": "carbon.storage.1.19.0.nupkg.sha512"
+    },
+    "Carbon.VersionControl/1.9.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0xTXOeb8Y6cJaP65CenJNbkuBGFXE6r+zsIKagCSo3xuSDbOwPf6c/yuyzeJkNStAXxDpUtE7pthAeQA3AI++g==",
+      "path": "carbon.versioncontrol/1.9.2",
+      "hashPath": "carbon.versioncontrol.1.9.2.nupkg.sha512"
+    },
+    "Carbon.Versioning/1.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z2uAaOPrxWyYCDbK/dJWGqpR7ZMX6BO9uF7pML2NrBqk3r17/fUQjV8NMYh5ATYDCBk94DH3IQr0w53/OCQZwQ==",
+      "path": "carbon.versioning/1.6.0",
+      "hashPath": "carbon.versioning.1.6.0.nupkg.sha512"
+    },
     "EntityFramework/6.2.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-ptGyXOf26qLrtn+2doAmylIlCxOnBJANwlyyLrXDmqIk9O18IzLWHyxDwwAyhgXkxmbiaA0WNpRy67WRReInBw==",
       "path": "entityframework/6.2.0",
       "hashPath": "entityframework.6.2.0.nupkg.sha512"
+    },
+    "GitHub/1.14.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rNWP3P8MoqHiQm2PWo9Y/o3BLjpo7skhZXqa1ILPzh4DizsDFCL4fY5xz44deXP9hPeCeFf71wWRXQSJG3kixQ==",
+      "path": "github/1.14.2",
+      "hashPath": "github.1.14.2.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite.Core/2.2.6": {
       "type": "package",
