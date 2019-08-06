@@ -1,0 +1,14 @@
+C:\Users\vijay.kumbhoje\source\repos\DNCAngApp\DNCAngApp.API\bin\Debug\netcoreapp2.2\DNCAngApp.API.deps.json
+C:\Users\vijay.kumbhoje\source\repos\DNCAngApp\DNCAngApp.API\bin\Debug\netcoreapp2.2\DNCAngApp.API.runtimeconfig.json
+C:\Users\vijay.kumbhoje\source\repos\DNCAngApp\DNCAngApp.API\bin\Debug\netcoreapp2.2\DNCAngApp.API.runtimeconfig.dev.json
+C:\Users\vijay.kumbhoje\source\repos\DNCAngApp\DNCAngApp.API\bin\Debug\netcoreapp2.2\DNCAngApp.API.dll
+C:\Users\vijay.kumbhoje\source\repos\DNCAngApp\DNCAngApp.API\bin\Debug\netcoreapp2.2\DNCAngApp.API.pdb
+C:\Users\vijay.kumbhoje\source\repos\DNCAngApp\DNCAngApp.API\obj\Debug\netcoreapp2.2\DNCAngApp.API.csprojAssemblyReference.cache
+C:\Users\vijay.kumbhoje\source\repos\DNCAngApp\DNCAngApp.API\obj\Debug\netcoreapp2.2\DNCAngApp.API.csproj.CoreCompileInputs.cache
+C:\Users\vijay.kumbhoje\source\repos\DNCAngApp\DNCAngApp.API\obj\Debug\netcoreapp2.2\DNCAngApp.API.RazorAssemblyInfo.cache
+C:\Users\vijay.kumbhoje\source\repos\DNCAngApp\DNCAngApp.API\obj\Debug\netcoreapp2.2\DNCAngApp.API.RazorAssemblyInfo.cs
+C:\Users\vijay.kumbhoje\source\repos\DNCAngApp\DNCAngApp.API\obj\Debug\netcoreapp2.2\DNCAngApp.API.AssemblyInfoInputs.cache
+C:\Users\vijay.kumbhoje\source\repos\DNCAngApp\DNCAngApp.API\obj\Debug\netcoreapp2.2\DNCAngApp.API.AssemblyInfo.cs
+C:\Users\vijay.kumbhoje\source\repos\DNCAngApp\DNCAngApp.API\obj\Debug\netcoreapp2.2\DNCAngApp.API.RazorTargetAssemblyInfo.cache
+C:\Users\vijay.kumbhoje\source\repos\DNCAngApp\DNCAngApp.API\obj\Debug\netcoreapp2.2\DNCAngApp.API.dll
+C:\Users\vijay.kumbhoje\source\repos\DNCAngApp\DNCAngApp.API\obj\Debug\netcoreapp2.2\DNCAngApp.API.pdb

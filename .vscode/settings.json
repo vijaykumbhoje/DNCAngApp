@@ -1,0 +1,5 @@
+{
+    "search.useGlobalIgnoreFiles": true,
+    "scm.alwaysShowProviders": true,
+    "git.ignoreLimitWarning": true
+}
