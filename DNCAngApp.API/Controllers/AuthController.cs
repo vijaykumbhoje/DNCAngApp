@@ -26,6 +26,8 @@ namespace DNCAngApp.API.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register(UserForRegistrationDto userForRegistrationDto)
         {
+            throw new Exception("I am exception");
+            
             userForRegistrationDto.Username = userForRegistrationDto.Username.ToLower();
 
             if (await _repo.UserExists(userForRegistrationDto.Username))
