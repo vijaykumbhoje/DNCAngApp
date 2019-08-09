@@ -4,7 +4,7 @@ namespace DNCAngApp.API.Helpers
 {
     public static class Extensions
     {
-        public static void AddApplicationHeader(this HttpResponse response, string message)
+        public static void AddApplicationError(this HttpResponse response, string message)
         {
             response.Headers.Add("Application-Error", message);
             response.Headers.Add("Access-Control-Expose-Headers", "Application-Error");

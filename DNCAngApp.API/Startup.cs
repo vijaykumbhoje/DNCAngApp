@@ -5,6 +5,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using DNCAngApp.API.Data;
+using DNCAngApp.API.Helpers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics;
@@ -18,6 +19,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+
 
 namespace DNCAngApp.DNCAngApp.API
 {
@@ -65,7 +67,7 @@ namespace DNCAngApp.DNCAngApp.API
                         var error = context.Features.Get<IExceptionHandlerFeature>();
                         if(error!=null)
                         {
-                           
+                            context.Response.AddApplicationError(error.Error.Message);
                             await context.Response.WriteAsync(error.Error.Message);
                         }
                    });
